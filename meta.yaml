@@ -1,0 +1,42 @@
+package:
+  name: hrca
+  version: 0.1.0
+
+source:
+  path: .
+
+requirements: 
+  host:
+    - python =3.9
+    - cudnn >=8.9.2.26
+    - cudatoolkit >=11.2
+    - pytorch >=1.11, <2.0
+    - pytorch-gpu
+  run: 
+    - python =3.9
+    - setuptools =75.1.0
+    - pandas =2.2.2
+    - numpy >=1.24.0
+    - scanpy >=1.10.0
+    - scipy =1.12.0
+    - scikit-learn =1.1.1
+    - cudnn >=8.9.2.26
+    - cudatoolkit >=11.2
+    - pytorch >=1.11, <2.0
+    - pytorch-gpu
+    - matplotlib =3.9.2
+    - seaborn =0.13.2
+    - tensorboard >=2.10.0
+    - pillow >=9.0, <10.0.0
+
+test: 
+  source_files:
+    - hrca
+  imports: 
+    - hrca
+
+about: 
+  home: https://github.com/GD-Wong/HRCA
+  license: GPLv3
+  summary: "HRCA: High Resolution Cell Type AnnoTation Tool"
+  description: "A cell-typing tools for high resolution (<=20 um) spatial transcriptomic data"
