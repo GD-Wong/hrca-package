@@ -8,7 +8,7 @@ The training process is divided into two stages：
 
 [Pre-training](#pre-training)
 
-[Fine-tuning]()
+[Fine-tuning](#Fine-tuning)
 
 The train data and test data used in this example can be downloaded from [GD-Wong/Spatial_celltype at main](https://huggingface.co/datasets/GD-Wong/Spatial_celltype/tree/main)
 
