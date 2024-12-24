@@ -115,4 +115,4 @@ plt.show()
 
 ### Train new models
 
-If sufficient annotation data is available, HRCA can also utilize them to train new models. It requires some machine learning knowledge. If you want, please refer to the training documents.
+If sufficient annotation data is available, HRCA can also utilize them to train new models. It requires some machine learning knowledge. If you want, please refer to the [training tutorial](https://github.com/GD-Wong/hrca-package/tree/main/training-tutorial).
