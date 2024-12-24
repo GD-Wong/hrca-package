@@ -1,4 +1,4 @@
-# HRCA Training Document
+# HRCA Training Tutorial
 
 When there is sufficient annotated single-cell data (it is recommended to have more than 300 cells for each cell type), you can use HRCA to train new models. Please refer to the following content for training the new model.
 
