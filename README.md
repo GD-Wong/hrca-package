@@ -2,7 +2,7 @@
 
 HRCA (High-Resolution Cell Annotation) is a deep learning framework specifically designed for cell type annotation in high-resolution spatial transcriptomics (hr-stRNA). This novel method integrates transfer learning from single-cell RNA sequencing (scRNA-seq) data to hr-stRNA. It uses two key components: Gene-AE, for feature adaptation, and SE-Classifier, for cell typing. This method enables accurate cell type annotation even in the presence of sparse gene expression data.
 
-![workflow.jpg](C:\Users\HGD\Downloads\Fig\workflow.jpg)
+![workflow.jpg](https://github.com/GD-Wong/hrca-package/blob/main/Fig/workflow.jpg)
 
 ### Installation
 
@@ -70,7 +70,7 @@ result = hrca.annotate(input_data, features,
 # The result is a DataFrame
 ```
 
-![annotation_result.jpg](C:\Users\HGD\Downloads\Fig\annotation_result.jpg)
+![annotation_result.jpg](https://github.com/GD-Wong/hrca-package/blob/main/Fig/annotation_result.jpg)
 
 Show result of annotation,
 
@@ -90,7 +90,7 @@ sc.pl.umap(input_data, color="predicted", legend_loc="on data", size=5)
 # The umap will show as below.
 ```
 
-![Snipaste_2024-12-11_20-40-35.jpg](C:\Users\HGD\Downloads\Fig\Snipaste_2024-12-11_20-40-35.jpg)
+![Snipaste_2024-12-11_20-40-35.jpg](https://github.com/GD-Wong/hrca-package/blob/main/Fig/umap.jpg)
 
 With true label of cell type, the annotation result can be validated by confusion_matrix.
 
@@ -111,7 +111,7 @@ plt.show()
 # The confusion matrix will show as below
 ```
 
-![confusion_matrix.jpg](C:\Users\HGD\Downloads\Fig\confusion_matrix.jpg)
+![confusion_matrix.jpg](https://github.com/GD-Wong/hrca-package/blob/main/Fig/confusion_matrix.jpg)
 
 ### Train new models
 
